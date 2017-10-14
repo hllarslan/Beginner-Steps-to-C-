@@ -1,3 +1,8 @@
+  /*With this practice I enter comma separated integers in single 
+    line and I need to analyse this stream because I would like 
+    to assign every integer to vector. At the end of practice I 
+    comprehend basics of stream, vector and some member methods 
+    of this terms.*/
 
 
     #include <iostream>
