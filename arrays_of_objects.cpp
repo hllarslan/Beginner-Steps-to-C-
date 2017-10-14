@@ -1,6 +1,6 @@
-     // In this code I am asked to create Class Student which has vector for 
+   /*In this code I am asked to create Class Student which has vector for 
      5 grades of each student and then public methods to calculate sum of 
-     grades of students. I practiced how to use array of objects in this code.
+     grades of students. I practiced how to use array of objects in this code.*/
      
 
 
