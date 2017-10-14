@@ -1,5 +1,8 @@
 
-
+ /* Previously, I experienced fundamentals of string stream and now
+    I have some string and integer variables and need to show them
+    in string stream. Function to_string is assigned to do that 
+    purpose. */
 
     #include <iostream>
     #include <vector>
