@@ -4,4 +4,4 @@
  and Embedded Development. 
  
  Any help to maximize quality of my profile will be appreciated. I am newbie and I am learning how to use Github and so 
- my first contents become weird to you but day by day I develop my profile in a better way.
+ my first contents look weird to you but day by day I develop my profile in a better way.
