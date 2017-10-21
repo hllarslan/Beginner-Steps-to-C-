@@ -1,0 +1,49 @@
+        //In this code I have gone through manipulator by using flags.
+        
+        
+
+
+
+
+
+        #include <iostream>
+        #include <iomanip> //For the manipulation funcs
+        
+        
+        
+        int main() {
+           int T;
+           std::cin >> T;
+           
+           std::cout <<setiosflags(std::ios::uppercase); //uppercase make all letter upper
+
+           
+           while(T--) {
+               double A,B,C; 
+               std::cin >>A >>B >>C;
+               
+               if(A){
+               
+                 std::cout <<std::hex <<std::nouppercase; //hex convert value to hexadecimal and nouppercase disable uppercase.
+                 std::cout <<std::setw(0) <<"0x"; //setw means set width, here I used 0xf so 15 in 10 based numbers.
+                 std::cout <<(((long long int)(100 * ( A)/ 100))) <<std::endl;
+                 
+               }
+               
+               if(B){
+                 
+                 std::cout <<std::fixed  <<std::setw(15) <<std::setprecision(2);//fixed-point notation with 2 digits after comma. 
+                 std::cout <<std::setfill('_') <<std::right <<std::showpos <<B <<std::endl;/*Fill blanks with _ and shift to right
+                 until 15th character is reached and then show sign of value by showpos*/
+              
+               }
+               
+               if(C){
+               
+                 std::cout <<std::scientific <<std::uppercase;//use scientific notation and convert letter to uppercase
+                 std::cout <<std::setprecision(9) <<std::noshowpos <<C <<std::endl;//write 9 digits after comma and do not show 
+                 sign
+                
+               }
+            }
+         }
