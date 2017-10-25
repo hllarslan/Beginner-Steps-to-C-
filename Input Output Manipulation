@@ -1,11 +1,10 @@
+        
+        
+        
+        
+        
         //In this code I have gone through manipulator by using flags.
         
-        
-
-
-
-
-
         #include <iostream>
         #include <iomanip> //For the manipulation funcs
         
